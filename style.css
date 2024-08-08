@@ -67,6 +67,9 @@ nav {
 .hover-link:active {
   color: red;
 }
+.nav-item.active {
+  color: var(---accent-color);
+}
 
 .search-bar {
   height: 32px;
