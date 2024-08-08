@@ -27,25 +27,26 @@
       </div>
     </nav>
     <main>
-      <div class="card-container container flex">
-        <div class="card">
-          <div class="card-header">
-            <img
-              src="https://via.placeholder.com/400x200"
-              alt="new-image"
-              id="new-image" />
-          </div>
-          <div class="card-content">
-            <h3>This is the title</h3>
-            <h6>End Gadget 08/08/2023</h6>
-          </div>
-          <p>
+      <div class="card-container container flex"></div>
+    </main>
+    <template id="template-news-card">
+      <div class="card">
+        <div class="card-header">
+          <img
+            src="https://via.placeholder.com/400x200"
+            alt="new-image"
+            id="new-image" />
+        </div>
+        <div class="card-content">
+          <h3 id="news-title">This is the title</h3>
+          <h6 class="card-source" id="news-source">End Gadget 08/08/2023</h6>
+          <p class="card-description">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit.
             Voluptatibus rerum neque, velit veritatis sed quisquam illum
             provident quo voluptatum quibusdam?
           </p>
         </div>
       </div>
-    </main>
+    </template>
   </body>
 </html>
